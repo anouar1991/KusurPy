@@ -26,3 +26,5 @@ class Kasr :
     def handleType(self,value):
         if(type(value) == int or type(value) == float ):
             return Kasr(value, 1)
+        else:
+            return value
